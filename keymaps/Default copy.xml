@@ -1,0 +1,19 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="ctrl left" />
+  </action>
+  <action id="EditorNextWord" />
+  <action id="EditorPreviousWord" />
+  <action id="EditorPreviousWordWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl left" />
+    <keyboard-shortcut first-keystroke="shift ctrl left" second-keystroke="ctrl left" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="ctrl right" />
+  </action>
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="f12" />
+  </action>
+  <action id="JumpToLastWindow" />
+  <action id="ResizeToolWindowLeft" />
+</keymap>
