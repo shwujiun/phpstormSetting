@@ -2,6 +2,7 @@
   <component name="MaterialThemeConfig">
     <option name="isHighContrast" value="true" />
     <option name="isWizardShown" value="true" />
+    <option name="pristineConfig" value="false" />
     <option name="userId" value="3c19c6f1:168dfd8cff9:-8000" />
     <option name="version" value="3.5.0.1" />
   </component>
