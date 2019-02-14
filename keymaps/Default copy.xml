@@ -2,12 +2,17 @@
   <action id="Back">
     <keyboard-shortcut first-keystroke="ctrl left" />
   </action>
+  <action id="ChangesView.Diff" />
+  <action id="CompareTwoFiles" />
+  <action id="Diff.ShowDiff" />
+  <action id="EditorDuplicate" />
   <action id="EditorNextWord" />
   <action id="EditorPreviousWord" />
   <action id="EditorPreviousWordWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl left" />
     <keyboard-shortcut first-keystroke="shift ctrl left" second-keystroke="ctrl left" />
   </action>
+  <action id="FileChooser.GotoDesktop" />
   <action id="Forward">
     <keyboard-shortcut first-keystroke="ctrl right" />
   </action>
@@ -16,4 +21,12 @@
   </action>
   <action id="JumpToLastWindow" />
   <action id="ResizeToolWindowLeft" />
+  <action id="RunDashboard.CopyConfiguration" />
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="alt j" />
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
+  <action id="SendEOF" />
+  <action id="XDebugger.CopyWatch" />
+  <action id="openAssertEqualsDiff" />
 </keymap>
