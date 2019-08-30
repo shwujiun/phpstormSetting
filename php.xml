@@ -7,19 +7,23 @@
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="C:\wamp2\bin\php\php7.2.14\php.exe" id="16d5f47a-7c2b-4d00-9e6e-73277eb1baef" name="PHP 7.2.14" debugger_id="php.debugger.XDebug" debugger_extension="C:\wamp2\bin\php\php7.2.14\ext\php_xdebug-2.7.0RC2-7.3-vc15.dll" />
+      <interpreter id="16d5f47a-7c2b-4d00-9e6e-73277eb1baef" name="PHP 7.3" home="C:\wamp2\bin\php\php7.3.1\php.exe" debugger_id="php.debugger.XDebug" debugger_extension="C:\wamp2\bin\php\php7.3.1\ext\php_xdebug.dll" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
-      <interpreter name="PHP 7.2.14">
-        <phpinfo binary_type="PHP" php_cgi="C:\wamp2\bin\php\php7.2.14\php-cgi.exe" php_cli="C:\wamp2\bin\php\php7.2.14\php.exe" path_separator=";" version="7.2.14">
+      <interpreter name="PHP 7.3">
+        <phpinfo binary_type="PHP" php_cgi="C:\wamp2\bin\php\php7.3.1\php-cgi.exe" php_cli="C:\wamp2\bin\php\php7.3.1\php.exe" path_separator=";" version="7.3.1">
           <additional_php_ini />
-          <configuration_file>C:\wamp2\bin\php\php7.2.14\php.ini</configuration_file>
+          <configuration_file>C:\wamp2\bin\php\php7.3.1\php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="include_path" value=".;C:\php\pear" />
           </configuration_options>
-          <debuggers />
+          <debuggers>
+            <debugger_info debugger="xdebug" debugger_version="2.7.2">
+              <debug_extensions />
+            </debugger_info>
+          </debuggers>
           <loaded_extensions>
             <extension name="Core" />
             <extension name="PDO" />
@@ -61,6 +65,7 @@
             <extension name="standard" />
             <extension name="tokenizer" />
             <extension name="wddx" />
+            <extension name="xdebug" />
             <extension name="xml" />
             <extension name="xmlreader" />
             <extension name="xmlrpc" />
