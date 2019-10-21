@@ -22,6 +22,9 @@
   </action>
   <action id="JumpToLastWindow" />
   <action id="ParameterInfo" />
+  <action id="RemoveBom">
+    <keyboard-shortcut first-keystroke="ctrl b" />
+  </action>
   <action id="RunDashboard.CopyConfiguration" />
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="ctrl d" />
